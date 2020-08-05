@@ -6,40 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
-    <title>Codeup Design</title>
-</head>
-<body>
-<main class="container">
-    <section class="row">
-        <article class="col-sm">
-            One of three columns
-        </article>
-        <article class="col-sm">
-            One of three columns
-        </article>
-        <article class="col-sm">
-            One of three columns
-        </article>
-    </section>
-</main>
-
-
-<!doctype html>
-<html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
           integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheet.css">
     <title>Code Up Website</title>
 </head>
-<body class="bg-light">
+<body class="bg-dark">
 <!--I Don't know how to format this so I'm just going to start making sites-->
 <nav class="navbar navbar-light bg-white mt-3">
     <div class="container">
@@ -57,18 +29,21 @@
     <h1 class="text-center">Visual Design & Web Development</h1>
     <h2 class="text-center">FROM PARK CITY, UTAH</h2>
     <!--Start Big Buttons-->
-    <div>
-        <span class="circle-red">Design</span>
-        <span class="circle-orange">Develop</span>
-        <span class="circle-green">Support</span>
-        <span class="circle-grey">Host</span>
+    <div class="circle-container">
+        <main class="row">
+        <span class="circle-red col-xs-6 col-md-3 col-l-3">Design</span>
+        <span class="circle-orange col-xs-6 col-md-3 col-l-3">Develop</span>
+        <span class="circle-green col-xs-6 col-md-3 col-l-3">Support</span>
+        <span class="circle-grey col-xs-6 col-md-3 col-l-3">Host</span>
+        </main>
     </div>
     <!--End Big Buttons-->
 
     <!--Start Selected Work-->
     <!--Start Ipad card-->
+    <p class="font-weight-light text-center">Selected Work</p>
     <div>
-        <div class="card" style="width: 18rem;">
+        <div class="card col-s-12" style="width: 18rem;">
             <img src="images/apple-ipad.jpg" class="card-img-top" alt="ipad">
             <div class="card-body">
                 <p class="card-text">Featured Project</p>
@@ -80,7 +55,7 @@
         </div>
         <!--End Ipad card-->
         <!--Start Macbook card-->
-        <div class="card" style="width: 18rem;">
+        <div class="card col-s-12" style="width: 18rem;">
             <img src="images/macbook.jpg" class="card-img-top" alt="macbook">
             <div class="card-body">
                 <p class="card-text">Featured Project</p>
@@ -92,7 +67,7 @@
         </div>
         <!--End Macbook card-->
         <!--Start Man card-->
-        <div class="card" style="width: 18rem;">
+        <div class="card col-s-12" style="width: 18rem;">
             <img src="images/man.jpg" class="card-img-top" alt="man">
             <div class="card-body">
                 <p class="card-text">Featured Project</p>
@@ -104,7 +79,7 @@
         </div>
         <!--End Man card-->
         <!--Start Security card-->
-        <div class="card" style="width: 18rem;">
+        <div class="card col-s-12" style="width: 18rem;">
             <img src="images/security.jpg" class="card-img-top" alt="security">
             <div class="card-body">
                 <p class="card-text">Featured Project</p>

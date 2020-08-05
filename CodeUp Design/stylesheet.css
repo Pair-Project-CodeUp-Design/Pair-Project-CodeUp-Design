@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap'); 
 
 * {
     margin: 0;
@@ -27,61 +27,88 @@ h5 {
     font-family: 'Anton', sans-serif;
 }
 
+.circle-container {
+    display: flex;
+    /*text-align: center;*/
+}
 .circle-red {
     height: 105px;
     width: 105px;
-    background-color: E6563B;
+    background-color: #E6563B;
+    color: white;
+    border: 5px solid white;
     border-radius: 50%;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    box-sizing: content-box;
 }
 .circle-orange {
     height: 105px;
     width: 105px;
-    background-color: DEA03D;
+    background-color: #EB9D3A;
+    color: white;
+    border: 5px solid white;
     border-radius: 50%;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    box-sizing: content-box;
 }
 .circle-green {
     height: 105px;
     width: 105px;
-    background-color: 7CB06C;
+    background-color: #7CB06C;
+    color: white;
+    border: 5px solid white;
     border-radius: 50%;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    box-sizing: content-box;
 }
 .circle-grey {
     height: 105px;
     width: 105px;
-    background: 00ABA9;
+    background: #00ABA9;
+    color: white;
+    border: 5px solid white;
     border-radius: 50%;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    box-sizing: content-box;
 }
 
-}
 .icon-red {
     height: 18px;
     width: 18px;
-    background-color: E6563B;
+    background-color: #E6563B;
     border-radius: 50%;
-    display: inline-block;
+
 }
 .icon-orange {
     height: 18px;
     width: 18px;
-    background-color: DEA03D;
+    background-color: #DEA03D;
     border-radius: 50%;
-    display: inline-block;
+
 }
 .icon-green {
     height: 18px;
     width: 18px;
-    background-color: 7CB06C;
+    background-color: #7CB06C;
     border-radius: 50%;
-    display: inline-block;
+
 }
 .icon-grey {
     height: 18px;
     width: 18px;
-    background-color: 00ABA9;
+    background-color: #00ABA9;
     border-radius: 50%;
-    display: inline-block;
+
 }
