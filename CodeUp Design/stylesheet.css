@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'Anton', sans-serif;
+}
+h2 {
+    font-size: 48px;
+    font-family: 'Anton', sans-serif;
+}
+h3 {
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+}
+h4 {
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+}
+h5 {
+    font-size: 28px;
+    font-family: 'Anton', sans-serif;
+}
+
+.circle-red {
+    height: 105px;
+    width: 105px;
+    background-color: E6563B;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circle-orange {
+    height: 105px;
+    width: 105px;
+    background-color: DEA03D;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circle-green {
+    height: 105px;
+    width: 105px;
+    background-color: 7CB06C;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circle-grey {
+    height: 105px;
+    width: 105px;
+    background: 00ABA9;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+}
+.icon-red {
+    height: 18px;
+    width: 18px;
+    background-color: E6563B;
+    border-radius: 50%;
+    display: inline-block;
+}
+.icon-orange {
+    height: 18px;
+    width: 18px;
+    background-color: DEA03D;
+    border-radius: 50%;
+    display: inline-block;
+}
+.icon-green {
+    height: 18px;
+    width: 18px;
+    background-color: 7CB06C;
+    border-radius: 50%;
+    display: inline-block;
+}
+.icon-grey {
+    height: 18px;
+    width: 18px;
+    background-color: 00ABA9;
+    border-radius: 50%;
+    display: inline-block;
+}
