@@ -32,8 +32,6 @@ h5 {
     height: 75x;
 }
 
-
-
 .circle {
     height: 105px;
     width: 105px;
@@ -79,37 +77,49 @@ h5 {
 
 .icon-red {
     text-align: center;
-    height: 30px;
+    height: 18px;
     width: 18px;
     padding: .25em;
     background-color: #E6563B;
     border-radius: 50%;
-    margin: .15em;
+    font-family: 'Anton', sans-serif;
+    font-size: 9px;
+    margin: .25em;
 }
 .icon-orange {
     text-align: center;
-    height: 30px;
+    height: 18px;
     width: 18px;
     padding: .25em;
     background-color: #DEA03D;
     border-radius: 50%;
-    margin: .15em;
+    font-family: 'Anton', sans-serif;
+    font-size: 9px;
+    margin: .25em;
 }
 .icon-green {
     text-align: center;
-    height: 30px;
+    height: 18px;
     width: 18px;
     padding: .25em;
     background-color: #7CB06C;
+    font-family: 'Anton', sans-serif;
+    font-size: 9px;
     border-radius: 50%;
-    margin: .15em;
+    margin: .25em;
 }
 .icon-grey {
     text-align: center;
-    height: 30px;
+    height: 18px;
     width: 18px;
     padding: .25em;
     background-color: #00ABA9;
     border-radius: 50%;
-    margin: .15em;
+    font-family: 'Anton', sans-serif;
+    font-size: 9px;
+    margin: .25em;
+}
+
+.img-border {
+    border: 10px solid #E6E6E6;
 }
