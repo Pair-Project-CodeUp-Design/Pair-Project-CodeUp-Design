@@ -14,17 +14,18 @@
 </head>
 <body class="bg-light">
 <main class="container">
-    <!--I Don't know how to format this so I'm just going to start making sites-->
-    <nav class="navbar navbar-light bg-white mt-3">
-        <a href="#" class="navbar-brand"><img src="images/logo.png" height="105" width="105"/></a>
-        <h3 class="mr-auto">codeup design</h3>
-        <ul class="nav navbar-nav d-flex flex-row">
-            <li class="nav-item"><a class="nav-link pr-3" href="">Services</a></li>
-            <li class="nav-item"><a class="nav-link pr-3" href="">Work</a></li>
-            <li class="nav-item"><a class="nav-link pr-3" href="">Blog</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+    <!--Start nav bar large-->
+    <nav>
+        <a href="#" id="logo"><img src="images/logo.png" height="105" width="105"/></a>
+        <h3 class="">codeup design</h3>
+        <ul>
+            <li class=""><a class="" href="">Services</a></li>
+            <li class=""><a class="" href="">Work</a></li>
+            <li class=""><a class="" href="">Blog</a></li>
+            <li class=""><a class="" href="">Contact</a></li>
         </ul>
     </nav>
+    <!--    End nav bar large-->
     <div>
         <h2 class="text-center my-5">Visual Design & Web Development</h2>
         <h4 class="text-center my-3">FROM PARK CITY, UTAH</h4>
@@ -43,15 +44,15 @@
     </div>
     <!--End Big Buttons-->
 
-    <!--Start Selected Work-->
-    <!--Start Ipad card-->
+    <!--Start Main-->
     <div class="row">
-        <p class="font-weight-light col-sm-12 col-md-7 ">SELECTED WORK</p>
+        <p class="font-weight-light col-sm-12 col-md-7">SELECTED WORK</p>
         <p class="font-weight-light col-md-5 d-none d-sm-block">THE LAST</p>
     </div>
     <div class="row">
         <div class="row col-sm-12 col-lg-8">
-            <div class="card col-sm-12 col-md-4 m-3 bg-light border-0">
+            <!--Start Ipad card-->
+            <div class="card col-sm-12 col-md-4 col-lg-5 m-3 bg-light border-0">
                 <img src="images/apple-ipad.jpg" class="card-img-top img-border" alt="ipad">
                 <div class="d-flex mt-2">
                     <p class="card-text text-uppercase">Featured Project</p>
@@ -63,7 +64,7 @@
             </div>
             <!--End Ipad card-->
             <!--Start Macbook card-->
-            <div class="card col-sm-12 col-md-4 m-3 bg-light border-0">
+            <div class="card col-sm-12 col-md-4 col-lg-5 m-3 bg-light border-0">
                 <img src="images/macbook.jpg" class="card-img-top img-border" alt="macbook">
                 <div class="d-flex mt-2">
                     <p class="card-text text-uppercase">Featured Project</p>
@@ -75,7 +76,7 @@
             </div>
             <!--End Macbook card-->
             <!--Start Man card-->
-            <div class="card col-sm-12 col-md-4 m-3 bg-light border-0">
+            <div class="card col-sm-12 col-md-4 col-lg-5 m-3 bg-light border-0">
                 <img src="images/man.jpg" class="card-img-top img-border" alt="man">
                 <div class="d-flex mt-2">
                     <p class="card-text text-uppercase">Featured Project</p>
@@ -87,7 +88,7 @@
             </div>
             <!--End Man card-->
             <!--Start Security card-->
-            <div class="card col-sm-12 col-md-4 m-3 bg-light border-0">
+            <div class="card col-sm-12 col-md-4 m-3 col-lg-5 bg-light border-0">
                 <img src="images/security.jpg" class="card-img-top img-border" alt="man">
                 <div class="d-flex mt-2">
                     <p class="card-text text-uppercase">Featured Project</p>
@@ -97,33 +98,39 @@
                     <i class="icon-grey">H</i>
                 </div>
             </div>
-            <!--End Security card-->
         </div>
+        <!--End Security card-->
 
-    <!--Start Side Articles-->
-    <div class="col-lg-4 d-none d-sm-block">
-        <div class="d-flex my-4">
-            <img src="images/mobile-phone.jpg" height="56" width="56"/>
-            <h5 class="text-uppercase ml-3">The admin bar and absolute positioning</h5>
+        <!--Start Side Articles-->
+        <div class="col-lg-4 d-none d-sm-block">
+            <div class="d-flex my-4">
+                <img src="images/mobile-phone.jpg" height="56" width="56"/>
+                <h5 class="text-uppercase ml-3">The admin bar and absolute positioning</h5>
+            </div>
+            <div class="d-flex my-4">
+                <img src="images/head.jpg" height="56" width="56"/>
+                <h5 class="text-uppercase ml-3">Nibbler Awesome Website testing </h5>
+            </div>
+            <div class="d-flex my-4">
+                <img src="images/ipad.jpg" height="56" width="56"/>
+                <h5 class="text-uppercase ml-3">How to get google to like you</h5>
+            </div>
+            <!--Start social media-->
+            <div class="d-flex flex-wrap">
+                <i class="fab fa-twitter"></i>
+                <p class="ml-2 text-uppercase"> Last Tweet</p>
+                <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque commodi, delectus
+                    dolorem eaque
+                    facilis laborum magnam nam perspiciatis provident sequi, veritatis voluptas voluptate? Earum iste
+                    numquam omnis quaerat voluptate?</p>
+            </div>
+            <!--End Social media-->
         </div>
-        <div class="d-flex my-4">
-            <img src="images/head.jpg" height="56" width="56"/>
-            <h5 class="text-uppercase ml-3">Nibbler Awesome Website testing </h5>
-        </div>
-        <div class="d-flex my-4">
-            <img src="images/ipad.jpg" height="56" width="56"/>
-            <h5 class="text-uppercase ml-3">How to get google to like you</h5>
-        </div>
-        <!--Start social media-->
-        <div class="d-flex flex-wrap">
-            <i class="fab fa-twitter"></i> <p class="ml-2 text-uppercase"> Last Tweet</p>
-            <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque commodi, delectus dolorem eaque
-                facilis laborum magnam nam perspiciatis provident sequi, veritatis voluptas voluptate? Earum iste
-                numquam omnis quaerat voluptate?</p>
-        </div>
-    </div>
+        <!--End Side Articles-->
     </div>
 </main>
+
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
