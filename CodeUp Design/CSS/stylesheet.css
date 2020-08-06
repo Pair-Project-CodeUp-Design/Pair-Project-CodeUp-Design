@@ -24,14 +24,15 @@ h4 {
     font-family: 'Anton', sans-serif;
 }
 h5 {
-    font-size: 28px;
+    font-size: 28px !important;
     font-family: 'Anton', sans-serif;
 }
-
+p.lorem {
+    font-size: 9px;
+}
 .navbar {
     height: 75x;
 }
-
 .circle {
     height: 105px;
     width: 105px;
