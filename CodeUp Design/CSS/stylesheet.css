@@ -6,49 +6,42 @@
     padding: 0;
     font-family: 'Abel', sans-serif;
 }
-
-.navbar-main {
-    z-index: 1;
-}
-
-.navbar-background {
-    z-index: 0;
-    position: absolute;
-    top: 45px;
-    background-color: white;
-    width: 100%;
-    height: 50px;
+a {
+    color: #00ABA9;
 }
 
 h1 {
     font-size: 64px;
     font-family: 'Anton', sans-serif;
 }
+
 h2 {
     font-size: 48px;
     font-family: 'Anton', sans-serif;
 }
-h3 {
-    font-size: 40px;
-    font-family: 'Anton', sans-serif;
-}
+
+
 h4 {
     font-size: 32px;
     font-family: 'Anton', sans-serif;
 }
+
 h5 {
     font-size: 28px !important;
     font-family: 'Anton', sans-serif;
 }
+
 p.lorem {
     font-size: 9px;
 }
+
 .circle {
     height: 105px;
     width: 105px;
     border-radius: 50%;
     border: 5px solid white;
 }
+
 .circle-red {
     background-color: #E6563B;
     color: white;
@@ -58,6 +51,7 @@ p.lorem {
     font-family: 'Anton', sans-serif;
     box-sizing: content-box;
 }
+
 .circle-orange {
     background-color: #EB9D3A;
     color: white;
@@ -67,6 +61,7 @@ p.lorem {
     font-family: 'Anton', sans-serif;
     box-sizing: content-box;
 }
+
 .circle-green {
     background-color: #7CB06C;
     color: white;
@@ -76,6 +71,7 @@ p.lorem {
     font-family: 'Anton', sans-serif;
     box-sizing: content-box;
 }
+
 .circle-grey {
     background: #00ABA9;
     color: white;
@@ -97,6 +93,7 @@ p.lorem {
     font-size: 9px;
     margin: .25em;
 }
+
 .icon-orange {
     text-align: center;
     height: 18px;
@@ -108,6 +105,7 @@ p.lorem {
     font-size: 9px;
     margin: .25em;
 }
+
 .icon-green {
     text-align: center;
     height: 18px;
@@ -119,6 +117,7 @@ p.lorem {
     border-radius: 50%;
     margin: .25em;
 }
+
 .icon-grey {
     text-align: center;
     height: 18px;
@@ -136,54 +135,122 @@ p.lorem {
 }
 
 
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
+    .navbar-background {
+        background-color: white;
+        top: 50px;
+        width: 100%;
+        height: 50px;
+    }
+
     #logo {
-        height: 195px;
-        width: 195px;
-        margin: 0 auto;
-        display: block;
         position: absolute;
-        left: calc((100% - 195px) / 2);
+        top: 5px;
+        left: calc(50% - 50px);
     }
-    nav {
-        display: flex;
-        flex-direction: column;
-    }
-    ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        list-style-type: none;
-    }
-@media screen and (min-width: 575px) and (max-width: 768px) {
-    #logo {
-        height: 195px;
-        width: 195px;
-        margin: 0 auto;
-        display: block;
+
+    p.nav {
+        font-family: 'Abel', sans-serif;
+        font-size: 40px;
         position: absolute;
-        left: calc((100% - 195px) / 2);
-        /*z-index: 100000;*/
+        top: 100px;
+        left: calc(50% - 100px);
     }
-    nav {
-        display: flex;
-        flex-direction: column;
-    }
-    ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        list-style-type: none;
-    }
-@media screen and (min-width:769px) and (max-width:1700px) {
-    nav div {
-        display: flex;
-        flex-direction: row;
+
+    .nav-links {
+        position: relative;
+        top: 150px;
+        color: black;
     }
 
     ul {
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
         list-style-type: none;
+        text-decoration: none;
     }
+
+    .move {
+        position: absolute;
+        top: 170px;
+    }
+}
+@media screen and (min-width: 575px) and (max-width: 768px) {
+    .navbar-background {
+        background-color: white;
+        top: 50px;
+        width: 100%;
+        height: 50px;
+    }
+    #logo {
+        position: absolute;
+        top: 5px;
+        left: calc(50% - 50px);
+    }
+
+    p.nav {
+        font-family: 'Abel', sans-serif;
+        font-size: 40px;
+        position: absolute;
+        top: 100px;
+        left: calc(50% - 100px);
+    }
+    .nav-links {
+        position: relative;
+        top: 20px;
+        color: black;
+    }
+    .nav-links:nth-child(2) {
+        margin: 0 2em;
+    }
+
+    .nav-links:nth-child(3) {
+        margin: 0 2em;
+    }
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        color: black;
+        text-decoration: none;
+    }
+    .move {
+        position: absolute;
+        top: 150px;
+        right: 12px;
+    }
+}
+@media screen and (min-width: 769px) {
+    .navbar-background {
+        background-color: white;
+        top: 55px;
+        width: 100%;
+        height: 50px;
+    }
+    #logo {
+        position: absolute;
+        top: 0px;
+        right: calc(100% - 200px)
+    }
+
+    p.nav {
+        font-family: 'Abel', sans-serif;
+        font-size: 40px;
+        position: absolute;
+        top: 20px;
+        right: calc(100% - 450px);
+    }
+    ul {
+        position: absolute;
+        top: 20px;
+        left: calc(80% - 150px);
+        display: flex;
+        list-style-type: none;
+        text-decoration: none;
+        margin: 1em;
+    }
+.nav-links {
+    padding: 0 1em;
+    color: black;
+}
 }
